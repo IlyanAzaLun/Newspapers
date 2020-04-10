@@ -1,0 +1,51 @@
+/*style.css*/
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+@import "header-nav.css";
+@import "search-element.css";
+@import "news-article.css";
+
+@media screen and (max-width: 1000px) {
+	#content,aside{
+		padding: 0 !important;
+		width: 100% !important;
+	}
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Quicksand', sans-serif !important;
+	padding: 0;
+	margin: 0;
+}
+header{
+	display: inline !important;
+}
+main{
+	padding: 20px;
+	overflow: auto;
+}
+aside{
+	float: right;
+	width: 30%;
+	padding-left: 20px;
+}
+h2, h3{
+	color: #00a2c6;
+}
+footer{
+	padding: 20px;
+	color: #fdf0e8;
+	background-color: #00a2c6;
+	text-align: center;
+	font-weight: bold;
+}
+/*#*/
+#content{
+	/*float: left;*/
+	width: 70%;
+}
+button:hover{
+	opacity: 0.5;
+}
