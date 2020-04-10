@@ -1,4 +1,4 @@
-###berikut dependensi yang di gunakan
+### berikut dependensi yang di gunakan
 ```
 "devDependencies": {
     "@babel/core": "^7.7.7",
@@ -21,14 +21,14 @@
     "sweetalert2": "^9.10.9"
   }
 ```
-###berikut command yang digunakan:
+### berikut command yang digunakan:
 ```
 "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start-dev": "webpack-dev-server --config webpack.dev.js --open"
   },
 ```
-###intallation:
+### intallation:
 install semua dependensi dengan `npm install`
 untuk menjalankan gunakan `npm run start-dev`
 ###bila terjadi kesalahan pada API :
@@ -36,5 +36,5 @@ ubah file ``src/script/view/main.js``
 uncomment `renderResult(DataSource.onloadPage());`dan comment `onLoadPage();`,
 lalu ubah juga file ``src/script/data/data-source.js``
 uncomment function static `onloadPage` dan uncomment `onloadPage`
-###Note:
+### Note:
 aplikasi ini masih dalam tahap pengembangan, dan masih belum sempurna sepenuhnya.
