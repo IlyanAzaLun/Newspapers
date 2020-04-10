@@ -1,4 +1,3 @@
-README.ME
 ###berikut dependensi yang di gunakan
 ```
 "devDependencies": {
